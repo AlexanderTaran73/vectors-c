@@ -6,9 +6,11 @@
 static TypeInfo* DOUBLE_TYPE_INFO = NULL;
 
 void doubleAdd(const void* arg1, const void* arg2, void* result);
+
 void doubleMultiply(const void* arg1, const void* arg2, void* result);
-void doubleAbs(const void* arg, void* result);
+
 void doublePrint(const void* data);
+
 TypeInfo* getDoubleTypeInfo();
 
 #endif

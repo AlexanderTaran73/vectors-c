@@ -11,9 +11,11 @@ typedef struct {
 static TypeInfo* COMPLEX_TYPE_INFO = NULL;
 
 void complexAdd(const void* arg1, const void* arg2, void* result);
+
 void complexMultiply(const void* arg1, const void* arg2, void* result);
-void complexAbs(const void* arg, void* result);
+
 void complexPrint(const void* data);
+
 TypeInfo* getComplexTypeInfo();
 
 #endif
