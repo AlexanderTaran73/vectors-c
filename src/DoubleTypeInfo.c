@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 void doubleAdd(const void* arg1, const void* arg2, void* result) {
     *(double*)result = *(double*)arg1 + *(double*)arg2;

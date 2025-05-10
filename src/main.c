@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <handler.h>
 
 int main() {
-    printf("Hello, world!\n");
+    startInterface();
     return 0;
 }

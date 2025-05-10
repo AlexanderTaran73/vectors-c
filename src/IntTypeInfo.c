@@ -1,6 +1,7 @@
 #include "IntTypeInfo.h"
 
 #include <stdio.h>
+#include <math.h>
 #include <stdlib.h>
 
 void intAdd(const void* arg1, const void* arg2, void* result) {
