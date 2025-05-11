@@ -50,7 +50,7 @@ void test_getComplexTypeInfo_structure() {
     assert(info->print != NULL);
 }
 
-void test_complex_type_info() {
+void run_complex_type_info_tests() {
     test_getComplexTypeInfo_structure();
     test_complexAdd();
     test_complexMultiply();

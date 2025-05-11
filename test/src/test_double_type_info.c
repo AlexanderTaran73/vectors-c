@@ -37,6 +37,6 @@ static void test_structure() {
 
 void run_double_type_info_tests() {
     test_structure();
-    test_double_add();
-    test_double_multiply();
+    test_doubleAdd();
+    test_doubleMultiply();
 }

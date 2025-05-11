@@ -5,7 +5,7 @@
 #include "test_vector.h"
 
 int main() {
-    test_complex_type_info();
+    run_complex_type_info_tests();
     printf("ComplexTypeInfo tests passed.\n");
 
     run_double_type_info_tests();

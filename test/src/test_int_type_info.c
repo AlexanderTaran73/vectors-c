@@ -33,6 +33,6 @@ static void test_structure() {
 
 void run_int_type_info_tests() {
     test_structure();
-    test_int_add();
-    test_int_multiply();
+    test_intAdd();
+    test_intMultiply();
 }
